@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+ 
+	
+	real valorFab, distribuidor, imposto, res
+
+        escreva("Digite o custo de fábrica: ")
+        leia(valorFab)
+
+       	distribuidor = valorFab*0.28
+        imposto = valorFab*0.45
+
+        res = valorFab + distribuidor + imposto
+
+        escreva ("Valor Final para o Consumidor: ", res)
+	}
+}

@@ -1,0 +1,29 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro  numA, numB, numC, R, S, D
+
+        escreva("Qual valor de A: ")
+        leia(numA)
+
+        escreva("Qual valor de B: ")
+        leia(numB)
+
+        escreva("Qual valor de C: ")
+        leia(numC)
+        
+
+        R = (numA + numB) ^2
+        
+        S = (numB + numC) ^2
+
+        D = (R + S)/2
+    
+        escreva ("R é igual à: ", R)
+        escreva ("\nS é igual à: ", S)
+        escreva ("\nO resuldado final de S + R /2 é ", D)
+
+	}
+}
